@@ -1,0 +1,15 @@
+Import word list from Rajbanthid          Done
+Code
+  Brute force   
+  ท ย า ล
+  ท ย ล า
+  ท ล ย า
+  ท ล า ย and so on... (lookup 24 cases)
+  found ทลาย
+  Brute force is too slow...      40320 lookups for 8 / 8 letters        362 880 lookups for 9 / 9 letters      ignoring ิ ี ึ ื ุ ู ่ ้ ๊ ๋ ็ ์ even worse
+  Index lookup
+      Modifying wordlist to make this program processes in reasonable amount of time by
+            sort letters of all words in the wordlist
+  กระรอก become กกรรอะ
+  บาสเกตบอล become กตบบลสอาเ
+  
