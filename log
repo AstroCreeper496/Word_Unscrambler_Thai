@@ -12,4 +12,15 @@ Code
             sort letters of all words in the wordlist
   กระรอก become กกรรอะ
   บาสเกตบอล become กตบบลสอาเ
+issue from c++ when processing thai letters. especially in logic.
+so this code convert thai letters into formatted code instead
+  ก become a001
+  ข become a002
+  and so on
+  ะ become a048
+  ั become a049
+  and so on (From unicode sequence starts at ก = a001)
+  \0 become a900
+  ! become a901
+  and so on (for basic latin block the sequence starts at \0 = a900)
   
